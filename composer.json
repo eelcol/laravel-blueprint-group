@@ -1,0 +1,27 @@
+{
+    "name": "eelcol/laravel-blueprint-group",
+    "description": "Laravel Blueprint group extension",
+    "keywords": ["laravel", "blueprint", "migration", "group"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eelco Luurtsema",
+            "email": "eelcoluurtsema@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Eelcol\\LaravelBlueprintGroup\\": "src/" 
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eelcol\\LaravelBlueprintGroup\\BlueprintGroupServiceProvider"
+            ],
+         }
+     }
+}
