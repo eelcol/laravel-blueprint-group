@@ -7,7 +7,10 @@ use Illuminate\Database\Schema\ColumnDefinition;
 
 class BlueprintGroup
 {
+	/** @var Illuminate\Database\Schema\Blueprint */
 	private $blueprint;
+
+	/** @var array */
 	private $columns = [];
 
 	/**
