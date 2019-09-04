@@ -21,7 +21,7 @@
         "laravel": {
             "providers": [
                 "Eelcol\\LaravelBlueprintGroup\\BlueprintGroupServiceProvider"
-            ],
+            ]
          }
      }
 }
