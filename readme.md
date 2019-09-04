@@ -34,6 +34,12 @@ Schema::table('table', function (Blueprint $table) {
 
 # Installation
 
+Require this package with composer.
+
+````
+composer require eelcol/laravel-blueprint-group
+````
+
 Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
 
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
