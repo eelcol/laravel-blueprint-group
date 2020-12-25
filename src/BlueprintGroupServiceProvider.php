@@ -15,7 +15,7 @@ class BlueprintGroupServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-
+        //
     }
 
     /**
