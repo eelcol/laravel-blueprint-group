@@ -75,4 +75,9 @@ class BlueprintGroup
 			call_user_func_array([$column, $method], $params);			
 		}
 	}
+
+	public function getBlueprint(): Blueprint
+	{
+		return $this->blueprint;
+	}
 }

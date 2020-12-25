@@ -10,11 +10,22 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0"
+        "php": "^7.3.0",
+        "illuminate/support": "^6|^7|^8",
+        "illuminate/database": "^6|^7|^8"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
             "Eelcol\\LaravelBlueprintGroup\\": "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eelcol\\LaravelBlueprintGroup\\Tests\\": "tests"
         }
     },
     "extra": {
